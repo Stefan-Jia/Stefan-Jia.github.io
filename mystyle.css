@@ -1,0 +1,12 @@
+body {
+  padding-left: 30em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: green;
+  background-image: url(tenweek.jpg);
+  background-size:100% auto;
+}
+h1 {
+  padding-right:15em;
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
