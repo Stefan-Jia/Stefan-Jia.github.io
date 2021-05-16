@@ -6,8 +6,19 @@ body{text-align:center
 .div{
   margin:0 auto
 }
+.div1{
+  width:500px;
+  margin:0 auto;
+}
+.table{
+  margin:0 auto
+}
+.aa{
+  margin-top:80px;
+  width:1350px;
+}
 h4{
-  font-weight:bold
+  font-weight:bold;
 }
 .bgimg{
  top: 0;
@@ -27,3 +38,32 @@ background-size: cover;
 .card{
   margin:0 auto
 }
+@media screen and (max-width: 800px) {
+    body {
+         padding-left:10px;
+         text-align:left
+    }
+    .div1{
+      float:left;
+      width:300px;
+      margin:0 auto;
+      text-align:center
+    }
+    .bb{
+      padding-right:550px;
+      padding-top:50px
+    }
+    .aa{
+      margin-left:30px;
+      width:400px;
+      text-align:center
+    }
+}
+		@media (max-width: 768px) {
+			html {
+				font-size: 10px;
+			}
+		}
+		.div1 {
+			font-size: 1rem;
+		}
