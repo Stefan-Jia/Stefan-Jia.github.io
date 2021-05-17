@@ -1,0 +1,11 @@
+body{text-align:center
+}
+.aa{
+  margin-left:10rem;
+  width:auto
+}
+@media screen and (max-width: 800px){
+  .aa{
+    margin:0 auto
+  }
+}
