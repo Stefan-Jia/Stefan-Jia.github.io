@@ -9703,3 +9703,7 @@ body {
     margin-right: -15px;
     margin-left: -15px;
 }
+
+.carousel-indicators .active {
+    background-color: #18d26e;
+}
